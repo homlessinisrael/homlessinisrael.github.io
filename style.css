@@ -1,0 +1,44 @@
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: "Alef Hebrew",
+               “Helvetica Neue”,
+               Helvetica,
+               Arial,
+               sans-serif;
+
+}
+.rtl {
+    text-align: right;
+    direction: right;
+}
+.pure-menu,.content,.footer-links {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    width:100%;
+    background-color:#13A646;
+    margin-top: 20px;
+}
+    .header:after{
+        padding-bottom:30px;
+        background-color:#0F8538;
+        content:"";
+    }
+/* NAV */
+.pure-menu {
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+.pure-menu-link {
+    color:white;
+
+
+}
+.pure-menu-link:hover,.pure-menu-link:active,.pure-menu-link:focus {
+    background-color: #0F8538;
+}
