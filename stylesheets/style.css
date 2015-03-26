@@ -40,18 +40,13 @@ img {
 .article {
     font-size: 20px;
 }
-.copyright,.additional {
-    text-align: center !important;
-    font-size: 20px;
 
-}
-.additional {
-    font-size: 16px;
+.copyright {
+    font-size: 14px;
     color: #999;
+    text-align: center !important;
+    font-style: italic;
 }
-    .additional > a + a {
-        text-align: left !important;
-    }
 
 
 
