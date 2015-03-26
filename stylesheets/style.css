@@ -7,25 +7,54 @@ html, button, input, select, textarea,
                sans-serif;
 
 }
-.rtl {
-    text-align: right;
-    direction: right;
+img {
+    width: 100%;
+    display: inline-block;
 }
-.pure-menu,.content,.footer-links {
+.pure-menu,.content,.copyright {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 .header {
     width:100%;
-    background-color:#13A646;
+    background-color:#333;
     margin-top: 20px;
 }
-    .header:after{
-        padding-bottom:30px;
-        background-color:#0F8538;
-        content:"";
+    h3 {
+        font-size: 40px;
+        text-align: center;
+        color: #4D4D4D;
+
     }
+.article p {
+    text-align: right;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 20px;
+}
+.article-list {
+    list-style: circle;
+    font-size: 20px;
+}
+.article {
+    font-size: 20px;
+}
+.copyright,.additional {
+    text-align: center !important;
+    font-size: 20px;
+
+}
+.additional {
+    font-size: 16px;
+    color: #999;
+}
+    .additional > a + a {
+        text-align: left !important;
+    }
+
+
+
 /* NAV */
 .pure-menu {
     font-size: 30px;
@@ -41,4 +70,16 @@ html, button, input, select, textarea,
 }
 .pure-menu-link:hover,.pure-menu-link:active,.pure-menu-link:focus {
     background-color: #0F8538;
+}
+.pure-menu-link.help:hover,.pure-menu-link.help:active,.pure-menu-link.help:focus {
+    background-color: #e18728;
+}
+/* EXTRA STYLES */
+.rtl {
+    text-align: right;
+    direction: right;
+}
+.bold {
+    font-style: bold;
+    font-weight: 600;
 }
