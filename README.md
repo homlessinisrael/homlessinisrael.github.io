@@ -16,9 +16,9 @@ Specificlly meant to pass information on the homeless in Israel.
 
 ## Special thanks to:
 
-*My Mom* - seriously, who do I show early prototypes to? 
-*DevTips* - Couldn't have done it without you.
-*The [Radiant](https://plug.dj/radiant) Community plug room* - MUST HAVE MORE MUSIC
+**My Mom** - seriously, who do I show early prototypes to? 
+**DevTips** - Couldn't have done it without you.
+**The [Radiant](https://plug.dj/radiant) Community plug room** - MUST HAVE MORE MUSIC
 
 
 
